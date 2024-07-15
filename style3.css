@@ -1,0 +1,74 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    position: relative;
+    top: 200px;
+    left: 200px; */
+    /* border-radius: 50%; */
+    /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    /* transition: all 2s ease-out 1s; */
+    /* transform: rotate(10deg); */
+    /* rotate: z 90deg; */
+    /* transition: all 2s ease-in 0s; */
+    /* animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate-reverse;  */
+    /* animation: colorAnimate 4s ease-in 0s infinite normal;
+}  */
+/* div:hover { */
+    /* background-color: red;
+    color: white;
+    font-size: 20px; */
+    /* transform: scale(2); */
+    /* rotate:  90deg; */
+    /* transform: translate(200px,200px); */
+    /* transform: skew(90deg);
+} */
+/* div:active {
+    background-color: black;
+    color: green;
+} */
+/* 
+@keyframes colorAnimate
+{
+    0%{
+        left: 0px;
+        background-color: yellow;
+    }
+    50% {
+        background-color: aqua;
+        color: azure;
+    }
+    100% {
+        left: 200px;
+        background-color: blueviolet;
+    }
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(22, 174, 185);
+    border-top: 20px solid black;
+    /* animation: loader 3s ease-in-out 0s infinite normal; */
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+@keyframes loader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
